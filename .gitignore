@@ -1,0 +1,8 @@
+
+sync just for me.command
+.DS_Store
+docs/.texpadtmp/
+docs/*.odg
+docs/*.tex
+local_server_justforme/
+start local server just for me.command
