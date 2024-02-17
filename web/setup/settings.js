@@ -1,7 +1,7 @@
 var Experigen =  {
 	settings: {
 
-		experimentName: "Default", // use only A-Z, a-z, 0-9
+		experimentName: "FAHSS-Research-SBU-Arabic", // use only A-Z, a-z, 0-9
 		
 		databaseServer: "https://sdb.phonologist.org/experigen1/",
 		recorderServer: "https://sdb.phonologist.org/audio/upload.php",
@@ -9,7 +9,7 @@ var Experigen =  {
 		online: true, // make sure you know what you're doing before changing this
 		
 		strings: {
-			windowTitle:     "Wug test",
+			windowTitle:     "SBU ARB FAHSS",
 			connecting:		 "Connecting...",
 			loading:         "Loading...",
 			soundButton:     "    ►    ",
