@@ -13,6 +13,9 @@ Experigen.make_into_trial = function (that) {
 	that.soundbuttons = [];
 	that.responses = 0;
 	
+	that.getRandomInt = function (){
+		return Experigen.userCode; 
+	}
 
 	that.advance = function(spec) {
 		var parts = $(".trialpartWrapper");
@@ -105,7 +108,7 @@ Experigen.make_into_trial = function (that) {
 		str += '<div class="scaleEdgeLabelR">' + edgelabels[edgelabels.length-1] + '</div>';
 		str += '<div class="scaleWrapper">';
 		for (var i=0; i<buttons.length; i+=1) {
-			str += '<div class="scalebuttonWrapper">';
+			str += `<div class="scalebuttonWrapper${i+1}">`;
 			str += '<input type="' + buttontype + '" value="'+ buttons[i] +'" id="' + Experigen.screen().responses + 'button' + i + '" name="scale'+ Experigen.screen().responses +'" class="scaleButton" onClick="Experigen.screen().recordResponse(' + Experigen.screen().responses + "," + "'" + buttons[i] + "'" + ');Experigen.screen().continueButtonClick(this,{hide:' +  hide + ',disable:' + disable + '});';
 
 			if (obj.rightAnswer) {

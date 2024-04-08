@@ -1,9 +1,9 @@
 var Experigen =  {
 	settings: {
 
-		experimentName: "FAHSS-Research-SBU-Arabic", // use only A-Z, a-z, 0-9
+		experimentName: "FAHSS-Research-SBU-Arabic1", // use only A-Z, a-z, 0-9
 		
-		databaseServer: "https://sdb.phonologist.org/experigen1/",
+		databaseServer: "http://db.phonologist.org/",
 		recorderServer: "https://sdb.phonologist.org/audio/upload.php",
 
 		online: true, // make sure you know what you're doing before changing this
@@ -38,7 +38,7 @@ var Experigen =  {
 		items: "resources/items.txt",
 		
 		otherresources: {
-			frames: "resources/frames.txt",
+			frames: "resources/myframes.txt",
 			pictures: "resources/pictures.txt"	
 		},
 

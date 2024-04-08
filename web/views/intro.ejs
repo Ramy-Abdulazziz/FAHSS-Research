@@ -1,22 +1,15 @@
-
-<div style="width: 100%;">
-	<h3>Welcome to the SBU Arabic FAHSS Experiment! </h3>
-
+<div style="width: 100%">
+    <h3>Welcome to the SBU Arabic FAHSS Experiment!</h3>
 </div>
 
-<div class="trialpartWrapper" style="text-align: left;">
-	<h4> Experimental Procedure:</h4>
-	<p>
+<div class="trialpartWrapper" style="text-align: left">
+    <h4>Experimental Procedure:</h4>
+    <p>
+        You will be prompted to listen to a word and given three options, choose
+        the option you feel replicates the original word.
+    </p>
 
-	This experiment will test your ability to perceive Arabic letters. 
-	We will be measuring how well you perceive certain Arabic letters in words, 
-	You will be prompted to listen to a word and given three options, choose the option you feel
-	replicates the original word. 
-
-	</p>
-	
-	<%= continueButton("Continue") %>
-
+    <%= continueButton("Continue") %>
 </div>
 
 <!-- div class="trialpartWrapper" style="text-align: left;">
@@ -27,23 +20,25 @@
 	<div id="feedback"></div>
 </div -->
 
-
-
-<div class="trialpartWrapper" style="text-align: left;">
-	This study is anonymous. Please provide your consent to continue.<br>
-	<div style="padding: 1ex 0em 1.5ex 1.5em;">
-		<a href="#" onclick="$('#consent').toggle(); return false">What am I agreeing to, exactly?</a><br>
-		<div id="consent" style="display:none; font-size:80%;">
-			This survey is completely anonymous. At the end of the survey we will ask you some very general demographic questions, but otherwise no identifying information will be collected or recorded about you.
-			<p>
-			By clicking on &quot;I accept&quot;, you are confirming that you understand the procedures of this survey.
-		</div> 
-	</div>
-	<%= continueCheckbox() %> I agree to  participate anonymously.
+<div class="trialpartWrapper" style="text-align: left">
+    This study is anonymous. Please provide your consent to continue.<br />
+    <div style="padding: 1ex 0em 1.5ex 1.5em">
+        <a href="https://drive.google.com/file/d/1YZWKh8Gt7mireLmjfqAv5jrl0Qbklemp/view" target="_blank"
+            >What am I agreeing to, exactly?</a
+        ><br />
+        <div id="consent" style="display: none; font-size: 80%">
+            This survey is completely anonymous. At the end of the survey we
+            will ask you some very general demographic questions, but otherwise
+            no identifying information will be collected or recorded about you.
+            <p>
+                By clicking on &quot;I accept&quot;, you are confirming that you
+                understand the procedures of this survey.
+            </p>
+        </div>
+    </div>
+    <%= continueCheckbox() %> I agree to participate anonymously.
 </div>
 
-<div class="trialpartWrapper" style="text-align: left;">
-	<p>
-	<%= continueButton() %>
+<div class="trialpartWrapper" style="text-align: left">
+    <p><%= continueButton() %></p>
 </div>
-
