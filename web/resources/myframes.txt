@@ -11,3 +11,15 @@ id	text1	text2
 10	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
 11	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
 12	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+13	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+14	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+15	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+16	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+17	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+18	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+19	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+20	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+21	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+22	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+23	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.
+24	Listen to the following spoken word.	Then, choose from the three choices which was the word you heard.

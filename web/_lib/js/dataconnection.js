@@ -50,7 +50,7 @@ Experigen.loadUserID = function () {
 
 
 Experigen.sendForm = function (formObj) {
-	
+	console.log(formObj)
 	if (this.settings.online) {
 		// online mode	
 		var jsonp_url = this.settings.databaseServer + "dbwrite.cgi?" + formObj.serialize();
@@ -58,7 +58,7 @@ Experigen.sendForm = function (formObj) {
 			dataType: 'jsonp',
 			url: jsonp_url,  
 			success: function (data) {
-				//console.debug(data);
+				console.log(data);
 				return true;
 			}
 		});
@@ -73,7 +73,7 @@ Experigen.sendForm = function (formObj) {
 				dataType: 'jsonp',
 				url: jsonp_url,  
 				success: function (data) {
-					//console.debug(data);
+					console.debug(data);
 					return true;
 				}
 			});
